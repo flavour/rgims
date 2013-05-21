@@ -1,0 +1,9 @@
+{{# Close the pop up}}
+{{# Refresh the DIV}}
+{{s3.jquery_ready.append("""self.parent.$('.TB_closeAjaxWindow').html('')
+s3_tb_refresh()""")}}
+<div id='popup' class='cf'><center>
+ <p style='padding:20px 20px;'>
+ <h2>{{=T("Submission successful - please wait")}}...</h2>
+ <p>
+</center></div>

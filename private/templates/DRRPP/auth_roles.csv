@@ -1,0 +1,15 @@
+"uid","role","controller","function","table","uacl","oacl","Notes"
+"ANONYMOUS","Anonymous","gis",,,"READ",,
+"ANONYMOUS","Anonymous","org",,,"READ",,
+"ANONYMOUS","Anonymous","org","organisation",,"READ|CREATE",,
+"ANONYMOUS","Anonymous",,,"org_organisation","READ|CREATE",,"Allow new users to create orgs during registration"
+"ANONYMOUS","Anonymous","pr","pentity",,"READ",,
+"ANONYMOUS","Anonymous","pr","person_search",,"READ",,"Custom Controller to allow access to PR via JSON for AutoComplete"
+"ANONYMOUS","Anonymous","project",,,"READ",,
+"ANONYMOUS","Anonymous","project","project",,"READ|CREATE",,
+"ANONYMOUS","Anonymous","project","framework",,"READ|CREATE",,
+"AUTHENTICATED","Authenticated","pr","saved_search",,"READ|CREATE","READ|CREATE|UPDATE",
+"AUTHENTICATED","Authenticated","project","project",,"READ|CREATE","READ|CREATE|UPDATE",
+"ORG_ADMIN","Organisation Admin","org",,,"READ|CREATE","READ|CREATE|UPDATE",
+"ORG_ADMIN","Organisation Admin",,,"org_organisation","READ|CREATE","READ|CREATE|UPDATE",
+"ORG_ADMIN","Organisation Admin","project","project",,"READ|CREATE","READ|CREATE|UPDATE|REVIEW|APPROVE",

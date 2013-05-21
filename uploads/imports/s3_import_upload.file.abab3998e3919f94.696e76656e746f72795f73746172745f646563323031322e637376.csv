@@ -1,0 +1,297 @@
+Warehouse,Warehouse Organisation,Catalog,Category,Category Code,Item Name,,Item Code,Brand,Model,Year,Unit of Measure,Pack,Pack Quantity,Weight,Length,Width,Height,Volume,Quantity,Received Date,Expiry Date,Unit,Unit Value,Currency,Supplier/Donor,Owned By (Organization/Branch),Tracking Number,Bin,Comments
+NROC A WAREHOUSE,,,Food Items,,"Coffee,20g, 3in1 Kopiko Astig, 240pcs/box",,,,,,pcs,,,,,,,,400080,9/7/2012,6/1/2013,,3.71,PHP,Tridharma Mktg,,,,
+NROC A WAREHOUSE,,,Food Items,,"Corned Beef, 150g, Lucky 7 Brand, 48tins/box",,,,,,tins,,,,,,,,14849,8/17/2012,8/1/2015,,15.71,PHP,Pacific Meat ,,,,
+NROC A WAREHOUSE,,,Food Items,,"Corned Beef, 150g, Lucky 7 Brand, 48tins/box",,,,,,tins,,,,,,,,150000,9/5/2012,8/1/2015,,15.71,PHP,Pacific Meat ,,,,
+NROC A WAREHOUSE,,,Food Items,,"Noodles, 55g, Quickchow instant, chicken, 72pcs/box",,,,,,pcs,,,,,,,,175032,9/7/2012,3/5/2013,,5.94,PHP,Zest-O Corp,,,,
+NROC A WAREHOUSE,,,Food Items,,"Noodles, 55g, Quickchow instant, beef, 72pcs/box",,,,,,pcs,,,,,,,,175032,9/7/2012,3/5/2013,,5.94,PHP,Zest-O Corp,,,,
+NROC A WAREHOUSE,,,Food Items,,"Rice, NFA, 50kilos/sack",,,,,,kgs,,,,,,,,31200,6/19/2012,,,27.5,PHP,NFA,,,,
+NROC A WAREHOUSE,,,Food Items,,"Sardines, 155g, Master Brand, 100tins/box",,,,,,tins,,,,,,,,25620,8/16/2012,3/1/2015,,12.65,PHP,Universal Canning,,,,
+NROC A WAREHOUSE,,,Food Items,,"Sardines, 155g, Master Brand, 100tins/box",,,,,,tins,,,,,,,,200000,9/6/2012,3/1/2015,,12.65,PHP,Universal Canning,,,,
+NROC A WAREHOUSE,,,Food Items,,Food Packs,,,,,,packs,,,,,,,,51967,,,,250,PHP,,,,,
+NROC C WAREHOUSE,,,Textile/Curtain/etc,,"Bath Towel, asst color, 68.58x127cm",,,,,,pcs,,,,,,,,1081,1/4/2011,,,52,PHP,Merla B. Andres,,,,for allocation
+NROC C WAREHOUSE,,,Textile/Curtain/etc,,Bath Towel,,,,,,pcs,,,,,,,,11000,8/18/2011,,,95,PHP,A. M. Ramos,,,,for allocation
+NROC C WAREHOUSE,,,Textile/Curtain/etc,,"Blanket, family size, 70x90",,,,,,pcs,,,,,,,,10965,8/8/2012,,,90,PHP,Merla B. Andres,,,,for allocation
+NROC C WAREHOUSE,,,Textile/Curtain/etc,,"Blanket, family size, 70x90",,,,,,pcs,,,,,,,,20000,8/24/2012,,,93,PHP,Merla B. Andres,,,,for allocation
+NROC B WAREHOUSE,,,Houseware Supplies,,"Cups, plastic with handle regular size",,,,,,pcs,,,,,,,,2852,9/12/2008,,,8.99,PHP,Emmaiah Mktg,,,,for allocation
+NROC B WAREHOUSE,,,Houseware Supplies,,"Dust mask, FOAM",,,,,,pcs,,,,,,,,14700,12/18/2009,,,6.5,PHP,Wyler Enter,,,,for allocation
+NROC B WAREHOUSE,,,Houseware Supplies,,"Glass, plastic, drinking, 340ml capacity",,,,,,pcs,,,,,,,,826,8/17/2011,,,6.9,PHP,Merla B. Andres,,,,for allocation
+NROC C WAREHOUSE,,,Houseware Supplies,,Water jug plastic with handle & faucet (5 gallons capacity) blue,,,,,,pcs,,,,,,,,8525,8/6/2011,,,132,PHP,Lokal Industries,,,,for allocation
+NROC B WAREHOUSE,,,Houseware Supplies,,"Kaldero, big,  for community kitchen",,,,,,pcs,,,,,,,,48,9/8/2008,,,2500,PHP,Lokal Industries,,,,for allocation
+NROC B WAREHOUSE,,,Houseware Supplies,,"Kaldero (iron kettle), family size",,,,,,pcs,,,,,,,,13,8/22/2011,,,229,PHP,A. M. Ramos,,,,for allocation
+NROC B WAREHOUSE,,,Houseware Supplies,,"Kawa, big, for community kitchen",,,,,,pcs,,,,,,,,78,9/12/2008,,,1286,PHP,Emmaiah Mktg,,,,for allocation
+NROC B WAREHOUSE,,,Houseware Supplies,,"Laddle, aluminum, jumbo",,,,,,pcs,,,,,,,,57,9/8/2008,,,45,PHP,Merla B. Andres,,,,for allocation
+NROC B WAREHOUSE,,,Houseware Supplies,,"Laddle, aluminum, regular size",,,,,,pcs,,,,,,,,520,8/17/2011,,,19.68,PHP,Merla B. Andres,,,,for allocation
+NROC C WAREHOUSE,,,Houseware Supplies,,"Laminated sacks, 8ftx100m",,,,,,rolls,,,,,,,,1069,8/6/2011,,,2658.88,PHP,Lokal Industries,,,,for allocation
+NROC B WAREHOUSE,,,Houseware Supplies,,"Laminated sacks, 8ftx100m, blue orange",,,,,,rolls,,,,,,,,34,12/16/2010,,,2978.88,PHP,Customer First Trading,,,,allocated to DSWD FO's
+NROC C WAREHOUSE,,,Houseware Supplies,,"Mats, plastic, 72x80, family size",,,,,,pcs,,,,,,,,13075,8/8/2012,,,163.88,PHP,Lokal Industries,,,,for allocation
+NROC C WAREHOUSE,,,Houseware Supplies,,"Mats, plastic, 72x80, family size",,,,,,pcs,,,,,,,,20000,8/22/2012,,,153,PHP,Lokal Industries,,,,for allocation
+NROC C WAREHOUSE,,,Houseware Supplies,,"Mosquito Net, nylon, super extra, asst color",,,,,,pcs,,,,,,,,4588,8/3/2011,,,190,PHP,A. M. Ramos,,,,for allocation
+NROC C WAREHOUSE,,,Houseware Supplies,,"Mosquito Net, nylon, super extra, asst color",,,,,,pcs,,,,,,,,10000,8/8/2011,,,178.88,PHP,Lokal Industries,,,,for allocation
+NROC B WAREHOUSE,,,Sports/Recreation,,"Stress ball, rubber round, asstd color",,,,,,pcs,,,,,,,,140,9/8/2008,,,25,PHP,Lokal Industries,,,,for allocation
+NROC B WAREHOUSE,,,Houseware Supplies,,"Turner, aluminum, for big kawa, jumbo",,,,,,pcs,,,,,,,,115,9/8/2008,,,45,PHP,Merla B. Andres,,,,for allocation
+NROC A WAREHOUSE,,,Food Items,,"Pop Mie Instant Cup Noodles, 56g, 24pcs/case",,,,,,pcs,,,,,,,,203928,9/13/2012,2/18/2013,,10.64958333,PHP,First Pacific Company Limited,,,,
+NROC A WAREHOUSE,,,Food Items,,"Promina Nutritious Baby Rusk with Green Beans, milk flavor, 130g/pack, 48packs/case",,,,,,packs,,,,,,,,25920,9/13/2012,11/11/2013,,27.74770833,PHP,First Pacific Company Limited,,,,
+NROC A WAREHOUSE,,,Food Items,,"Bimbim Crispy Cookies (milk Chocolate/vanilla flavor), 21g, 12pcs/pack, 5pack/case",,,,,,pcs,,,,,,,,205920,9/13/2012,8/8/2013,,3.416166667,PHP,First Pacific Company Limited,,,,
+NROC A WAREHOUSE,,,Food Items,,"Bottled Water, Magnolia Purewater (500mlx24)",,,,,,bottles,,,,,,,,194157,8/12/2012,4/1/2013,,11,PHP,San Miguel Corporation,,,,
+NROC A WAREHOUSE,,,Food Items,,"Del Monte Tidbits Pineapple, 227g",,,,,,cans,,,,,,,,3,1/5/2012,9/1/2013,,45,PHP,ACS of the Philippines,,,,
+NROC A WAREHOUSE,,,Food Items,,"Nature's Spring, 350ml x 40bots (Expiration Date: August 2014)",,,,,,cases,,,,,,,,2341,8/23/2012,8/1/2014,,286,PHP,Province of Cebu - c/o Governor Gwendolyn F. Garcia,,,,
+NROC A WAREHOUSE,,,Food Items,,Purefoods Chicken Luncheon Meat (165gx48),,,,,,tin,,,,,,,,48000,8/12/2012,7/1/2014,,30.55,PHP,San Miguel Corporation,,,,
+NROC A WAREHOUSE,,,Food Items,,Rice ,,,,,,sacks,,,,,,,,990,8/13/2012,,,1750,PHP,Province of Isabela (Gov. Bojie Dy),,,,No Exp. Indicated
+NROC A WAREHOUSE,,,Food Items,,"Rice, 20kilos/sack",,,,,,sacks,,,,,,,,9302,5/15/2012,,,550,PHP,Tzu Chi Foundation,,,,No Exp. Indicated
+NROC A WAREHOUSE,,,Food Items,,"Soup Mix, Dried Vegetables (127kilos)",,,,,,barrel,,,,,,,,1,3/23/2012,5/1/2013,,12700,PHP,Second Harvest Japan,,,,
+NROC A WAREHOUSE,,,Food Items,,"Soup Mix, Dried Vegetables (129kilos)",,,,,,barrel,,,,,,,,1,3/23/2012,5/1/2013,,12900,PHP,Second Harvest Japan,,,,
+NROC A WAREHOUSE,,,Food Items,,"Soup Mix, Dried Vegetables (130kilos)",,,,,,barrel,,,,,,,,1,3/23/2012,5/1/2013,,13000,PHP,Second Harvest Japan,,,,
+NROC A WAREHOUSE,,,Food Items,,"Soup Mix, Dried Vegetables (132kilos)",,,,,,barrel,,,,,,,,1,3/23/2012,5/1/2013,,13200,PHP,Second Harvest Japan,,,,
+NROC A WAREHOUSE,,,Food Items,,"Toyo & Swan Sardines, 130g (Expiration Date: July 2015)",,,,,,tins,,,,,,,,82,8/23/2012,7/1/2015,,11.05,PHP,Province of Cebu - c/o Governor Gwendolyn F. Garcia,,,,
+NROC A WAREHOUSE,,,Food Items,,"Toyo & Swan Sardines, 130g x 100tins (Expiration Date: July 2015)",,,,,,cases,,,,,,,,299,8/23/2012,7/1/2015,,1105,PHP,Province of Cebu - c/o Governor Gwendolyn F. Garcia,,,,
+NROC A WAREHOUSE,,,Food Items,,"Ulam King, 155g",,,,,,tins,,,,,,,,125032,8/12/2012,5/1/2014,,15,PHP,San Miguel Corporation,,,,
+NROC C WAREHOUSE,,,Clothings,,"Brief,formen1pckx5pcs/pack(XL-16packsx5=80pcs;L-10packsx5=50pcs;M-12packsx5+3pcs=63pcs;S-16packsx5=80pcs",,,,,,boxes,,,,,,,,1,1/20/2012,,,8190,PHP,Winace Holding Company,,,,for allocation
+NROC C WAREHOUSE,,,Repacked,,Clothing packs,,,,,,packs,,,,,,,,21856,,,,100,PHP,Various donors,,,,for allocation
+NROC C WAREHOUSE,,,Clothings,,"Clothing, used (box no. hc 2130)",,,,,,kgs,,,,,,,,30,7/19/2012,,,50,PHP,Handang Tumulong Foundation Inc.,,,,for repacking
+NROC C WAREHOUSE,,,Clothings,,"Clothing, used (box no. hc 2132)",,,,,,kgs,,,,,,,,26,7/19/2012,,,50,PHP,Handang Tumulong Foundation Inc.,,,,for repacking
+NROC C WAREHOUSE,,,Clothings,,"Clothing, used (box no. hc 2132)",,,,,,kgs,,,,,,,,22,8/3/2012,,,50,PHP,Handang Tumulong Foundation Inc.,,,,for repacking
+NROC C WAREHOUSE,,,Clothings,,"Clothing, used (box no. hc 2132)",,,,,,kgs,,,,,,,,26,8/3/2012,,,50,PHP,Handang Tumulong Foundation Inc.,,,,for repacking
+NROC C WAREHOUSE,,,Clothings,,"Clothing, used (box no. hc 2132)",,,,,,kgs,,,,,,,,28,8/3/2012,,,50,PHP,Handang Tumulong Foundation Inc.,,,,for repacking
+NROC C WAREHOUSE,,,Clothings,,"Clothing, used (box no. hc 2133)",,,,,,kgs,,,,,,,,28,7/19/2012,,,50,PHP,Handang Tumulong Foundation Inc.,,,,for repacking
+NROC C WAREHOUSE,,,Clothings,,"Clothing, used (box no. hc 2134)",,,,,,kgs,,,,,,,,14,7/19/2012,,,50,PHP,Handang Tumulong Foundation Inc.,,,,for repacking
+NROC C WAREHOUSE,,,Clothings,,"Clothing, used, assorted, blouse, t shirt, sweatshirt, children t shirt, etc.)",,,,,,kgs,,,,,,,,1373,9/9/2011,,,50,PHP,"Sunlove, Singapore c/o BOC (2011-09-008)",,,,for repacking
+NROC C WAREHOUSE,,,Clothings,,"Jacket for Female, 165-175cm (color: orange + light pink)",,,,,,pcs,,,,,,,,1278,8/30/2012,,,60,PHP,Jordan Hashemite Charity Organization,,,,for allocation
+NROC C WAREHOUSE,,,Clothings,,"Jacket for Female, large (color: pink + beige)",,,,,,pcs,,,,,,,,1918,8/30/2012,,,60,PHP,Jordan Hashemite Charity Organization,,,,for allocation
+NROC C WAREHOUSE,,,Clothings,,"Jacket for male, winter, 165-185cm (color: light dark + orange)",,,,,,pcs,,,,,,,,133,8/30/2012,,,60,PHP,Jordan Hashemite Charity Organization,,,,for allocation
+NROC C WAREHOUSE,,,Clothings,,"Jacket, used (10kilos)",,,,,,pcs,,,,,,,,13,7/19/2012,,,60,PHP,Handang Tumulong Foundation Inc.,,,,for repacking
+NROC C WAREHOUSE,,,Clothings,,"T shirt ladies/short sleeves, used",,,,,,kgs,,,,,,,,2331,12/12/2009,,,50,PHP,BOC c/o 400 bales (RN 2011-06-004),,,,for repacking
+NROC C WAREHOUSE,,,Clothings,,"Trench coat, used (135 pcs)",,,,,,kgs,,,,,,,,143,8/2/2008,,,50,PHP,BOC c/o 140 bales (RN 09-03-002),,,,allocated to FO XII
+NROC C WAREHOUSE,,,Clothings,,"Trench coat, used (75kilos)",,,,,,pcs,,,,,,,,61,4/11/2011,,,30,PHP,BOC c/o 540 bales (RN 2011-06-004),,,,allocated to FO XII
+NROC C WAREHOUSE,,,Houseware Supplies,,"Books, used, assorted",,,,,,pcs,,,,,,,,146,1/20/2012,,,10,PHP,TV5,,,,for allocation
+NROC C WAREHOUSE,,,Houseware Supplies,,"Brochure, Innovation 2010 Research Report",,,,,,pcs,,,,,,,,50,3/8/2012,,,20,PHP,Second Harvest Japan,,,,for allocation
+NROC B WAREHOUSE,,,Medical Equipment/Supplies,,"Crutch, forearm, aluminum, used (4ft)",,,,,,pair,,,,,,,,1,8/10/2010,,,300,PHP,"Dubai, UAE (RN 2010-08-006)",,,,for allocation
+NROC B WAREHOUSE,,,Medical Equipment/Supplies,,"Crutch, wooden, used",,,,,,pair,,,,,,,,2,1/20/2012,,,50,PHP,TV5,,,,for allocation
+NROC C WAREHOUSE,,,Clothings,,"Footwear, used (9pairs)",,,,,,boxes,,,,,,,,1,5/17/2012,,,180,PHP,Giselle Garilva,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Aquabox and Humanitarian Aide,,,,,,boxes,,,,,,,,500,4/13/2012,,,9000,PHP,Aquabox Derbyshire,,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"Chain, steel, asstd sizes",,,,,,bags,,,,,,,,549,1/12/2009,,,,PHP,China,,,,turn over by CO
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"C-Perlin (19ft & 2.25"" x 4"" x 2"")",,,,,,pcs,,,,,,,,1285,9/5/2007,,,770.54,PHP,China (RN 07-11-013,,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Decorative Boarder Tiles  25x33cm 10pcs/box - Ceramics,,,,,,boxes,,,,,,,,50,10/27/2008,,,275,PHP,BOC (RN 08-10-013),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Decorative Boarder Tiles 10x30cm 20pcs/box - Ceramics,,,,,,boxes,,,,,,,,25,10/27/2008,,,200,PHP,BOC (RN 08-10-013),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Decorative Boarder Tiles 10x33cm 22pcs/box - Ceramics,,,,,,boxes,,,,,,,,280,10/27/2008,,,275,PHP,BOC (RN 08-10-013),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Decorative Boarder Tiles 5x20cm - Ceramics,,,,,,pcs,,,,,,,,9440,10/27/2008,,,8.5,PHP,BOC (RN 08-10-013),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Decorative Boarder Tiles 5x20cm 60pcs/box - Ceramics,,,,,,boxes,,,,,,,,70,10/27/2008,,,510,PHP,BOC (RN 08-10-013),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Decorative Boarder Tiles 5x30cm 40pcs/box - Ceramics,,,,,,boxes,,,,,,,,33,10/27/2008,,,200,PHP,BOC (RN 08-10-013),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Electrical outlet,,,,,,pcs,,,,,,,,150,9/5/2007,,,58.83,PHP,China (RN 07-11-013),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Electrical wire 10mm,,,,,,roll,,,,,,,,160,9/5/2007,,,830.8,PHP,China (RN 07-11-013),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Electrical wire 16mm,,,,,,roll,,,,,,,,163,9/5/2007,,,2492.42,PHP,China (RN 07-11-013),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Flourescent modulator tube,,,,,,pcs,,,,,,,,369,9/5/2007,,,79.87,PHP,China (RN 07-11-013),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"Generator, Model JD3800/E",,,,,,unit,,,,,,,,59,9/25/2007,,,17517.26,PHP,China (RN 07-11-013),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Glass louvre  5mmx100x1215mm ,,,,,,sets,,,,,,,,1003,9/5/2007,,,599.78,PHP,China (RN 07-11-013,,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Glass louvre 5mmx100x860mm,,,,,,sets,,,,,,,,240,9/5/2007,,,539.52,PHP,China (RN 07-11-013,,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Junction Box ,,,,,,pcs,,,,,,,,200,11/16/2007,,,99,PHP,China (RN 07-12-015),,,,for allocation
+NROC C WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Life Vest,,,,,,pcs,,,,,,,,100,8/25/2012,,,,PHP,OCD NDRRMC,,,,
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Protective suit,,,,,,pcs,,,,,,,,761,1/5/2009,,,1000,PHP,China (RN 07-06-007),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"PVC Cap, 2? ",,,,,,pcs,,,,,,,,1170,11/16/2007,,,15,PHP,China (RN 07-12-015),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"PVC Cap, 4? ",,,,,,pcs,,,,,,,,1240,11/16/2007,,,40,PHP,China (RN 07-12-015),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"PVC Coupling, 1/2? ",,,,,,pcs,,,,,,,,1150,11/16/2007,,,20,PHP,China (RN 07-12-015),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"PVC Coupling, 2? ",,,,,,pcs,,,,,,,,970,11/16/2007,,,30,PHP,China (RN 07-12-015),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"PVC Coupling, 4? ",,,,,,pcs,,,,,,,,1092,11/16/2007,,,40,PHP,China (RN 07-12-015),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"PVC Elbow, 1/2? X 90 degree",,,,,,pcs,,,,,,,,1000,11/16/2007,,,30,PHP,China (RN 07-12-015),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"PVC Elbow, 2? X 45 degree",,,,,,pcs,,,,,,,,1060,11/16/2007,,,50,PHP,China (RN 07-12-015),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"PVC Elbow, 2? X 90 degree",,,,,,pcs,,,,,,,,914,11/16/2007,,,80,PHP,China (RN 07-12-015),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"PVC Elbow, 4? X 45 degree",,,,,,pcs,,,,,,,,1120,11/16/2007,,,120,PHP,China (RN 07-12-015),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"PVC Elbow, 4? X 90 degree",,,,,,pcs,,,,,,,,974,11/16/2007,,,150,PHP,China (RN 07-12-015),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"PVC Female Adaptor, 1/2? ",,,,,,set,,,,,,,,1150,11/16/2007,,,15,PHP,China (RN 07-12-015),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"PVC Holder, 1/2? ",,,,,,pcs,,,,,,,,1150,11/16/2007,,,20,PHP,China (RN 07-12-015),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"PVC Pipe, 1/2? Diameter",,,,,,pcs,,,,,,,,21350,11/16/2007,,,175,PHP,China (RN 07-12-015),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"PVC Pipe, 2? Diameter",,,,,,pcs,,,,,,,,3073,11/16/2007,,,300,PHP,China (RN 07-12-015),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"PVC Pipe, 4? Diameter ",,,,,,pcs,,,,,,,,247,11/16/2007,,,400,PHP,China (RN 07-12-015),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"PVC TEE, 1/2? ",,,,,,pcs,,,,,,,,1130,11/16/2007,,,40,PHP,China (RN 07-12-015),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"PVC TEE, 2? ",,,,,,pcs,,,,,,,,1110,11/16/2007,,,80,PHP,China (RN 07-12-015),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"PVC TEE, 4?",,,,,,pcs,,,,,,,,1100,11/16/2007,,,120,PHP,China (RN 07-12-015),,,,for allocation
+NROC C WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Shelter box,,,,,,set,,,,,,,,15,10/6/2009,,,78700,PHP,Jordan (RN 09-11-010),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Solar Panel Model#F0003ww. Ready Set Kit,,,,,,set,,,,,,,,16,3/8/2012,,,2500,PHP,Second Harvest Japan,,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"Sprayer Knapsack, manual operation",,,,,,pcs,,,,,,,,91,,,,474.47,PHP,China c/o Central Office (RN 07-11-013),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"Sprayer Knapsack, manual operation (incomplete set)",,,,,,pcs,,,,,,,,13,,,,474.47,PHP,China c/o Central Office (RN 07-11-013),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Spraying Equipment,,,,,,unit,,,,,,,,48,,,,55000,PHP,China (RN 07-06-007),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"Surf board, long",,,,,,pcs,,,,,,,,1,8/8/2012,,,500,PHP,"Angelica Cilo, flight attendant of Air Phil. Express",,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"Tent, 270cm x 480cm x 200cm (H), used",,,,,,set,,,,,,,,1,3/13/2012,,,2000,PHP,"Phil. Consulate General, Xiamen, China",,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"Tent, Coleman Stockton, 8persons capacity",,,,,,set,,,,,,,,1,3/8/2012,,,6000,PHP,Second Harvest Japan,,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"Tiles, 20x20cm, Granite",,,,,,pcs,,,,,,,,39914,1/21/2009,,,24,PHP,BOC,,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"Tiles, 20x30cm, Ceramics",,,,,,pcs,,,,,,,,16803,8/22/2008,,,20,PHP,BOC,,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"Tiles, 25x33cm, Ceramics ",,,,,,pcs,,,,,,,,3275,6/22/2008,,,27.5,PHP,BOC (08-04-004),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"Tiles, 30x30cm, Granite",,,,,,pcs,,,,,,,,46832,1/21/2008,,,54,PHP,BOC,,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"Tiles, 50x50cm, Granite (7pcs/box)",,,,,,pcs,,,,,,,,581,8/22/2008,,,82.5,PHP,BOC (08-09-010),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"Tiles, Qixing 60x200mm 70pcs/box (Ceramics)",,,,,,boxes,,,,,,,,738,3/19/2010,,,560,PHP,BOC (RN 2010-05-004),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,"Tiles, Sanlolus 298x300mm 17pcs/box (Ceramics)",,,,,,boxes,,,,,,,,117,3/19/2010,,,680,PHP,BOC (RN 2010-05-004),,,,for allocation
+NROC C WAREHOUSE,,,Houseware Supplies,,Trash Bag,,,,,,pcs,,,,,,,,20,8/10/2012,,,,PHP,SUNPOWER Philippines,,,,
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Ufilta bottles (Water Filtration system),,,,,,pcs,,,,,,,,850,9/26/2011,,,1077.97,PHP,"Aquafilta, Malaysia (2011-09-008)",,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Wash basin with fittings,,,,,,set,,,,,,,,120,9/5/2007,,,1858.19,PHP,China (RN 07-11-013),,,,for allocation
+NROC B WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Wooden Door ,,,,,,pcs,,,,,,,,466,11/16/2007,,,482,PHP,China (RN 07-12-015),,,,for allocation
+NROC C WAREHOUSE,,,Sleeping Gear,,"Blanket, new",,,,,,pcs,,,,,,,,1000,8/23/2012,,,220,PHP,Province of Cebu - c/o Governor Gwendolyn F. Garcia,,,,
+NROC C WAREHOUSE,,,Sleeping Gear,,"Blanket, new",,,,,,pcs,,,,,,,,4000,8/25/2012,,,99,PHP,OCD NDRRMC,,,,
+NROC C WAREHOUSE,,,Sleeping Gear,,"Blanket, new",,,,,,pcs,,,,,,,,50,8/30/2012,,,100,PHP,Bureau of Immigration,,,,
+NROC C WAREHOUSE,,,Sleeping Gear,,"Blanket, used",,,,,,pcs,,,,,,,,630,4/26/2012,,,80,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Sleeping Gear,,"Blanket, used, heavy",,,,,,pcs,,,,,,,,90,8/31/2012,,,100,PHP,United Filipinos in Thailand,,,,for allocation
+NROC C WAREHOUSE,,,Sleeping Gear,,"Comforter, used",,,,,,pcs,,,,,,,,2,1/10/2012,,,35,PHP,TV5,,,,for allocation
+NROC C WAREHOUSE,,,Sleeping Gear,,"Comforter, used",,,,,,pcs,,,,,,,,11,5/18/2012,,,35,PHP,Filipino Community in Kuwait c/o OCD NDRRMC,,,,for allocation
+NROC C WAREHOUSE,,,Sleeping Gear,,"Comforter, used",,,,,,pcs,,,,,,,,2,5/16/2012,,,35,PHP,Philippine Embassy Singapore (c/o Jiamin Cargo Express),,,,for allocation
+NROC C WAREHOUSE,,,Sleeping Gear,,"Comforter, used (15kilos)",,,,,,pcs,,,,,,,,10,3/29/2012,,,40,PHP,Filipino Expatriate Wire (Singapore),,,,for allocation
+NROC C WAREHOUSE,,,Sleeping Gear,,"Folding Bed, single",,,,,,pcs,,,,,,,,100,8/25/2012,,,600,PHP,OCD NDRRMC,,,,
+NROC C WAREHOUSE,,,Sleeping Gear,,Mosquito Net,,,,,,pcs,,,,,,,,2400,8/25/2012,,,178.88,PHP,OCD NDRRMC,,,,
+NROC C WAREHOUSE,,,Sleeping Gear,,"Pillow, used",,,,,,pcs,,,,,,,,18,5/16/2012,,,25,PHP,Philippine Embassy Singapore (c/o Jiamin Cargo Express),,,,for allocation
+NROC C WAREHOUSE,,,Houseware Supplies,,"Plastic Mats, new",,,,,,pcs,,,,,,,,48,8/30/2012,,,200,PHP,Bureau of Immigration,,,,
+NROC C WAREHOUSE,,,Sleeping Gear,,"Plastic Sleeping Mats, single",,,,,,pcs,,,,,,,,1176,8/25/2012,,,150,PHP,OCD NDRRMC,,,,
+NROC C WAREHOUSE,,,Sleeping Gear,,Quilt,,,,,,pcs,,,,,,,,670,4/26/2012,,,80,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 51,,,,,,boxes,,,,,,,,1,4/26/2012,,,10106,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 52,,,,,,boxes,,,,,,,,1,4/26/2012,,,6857,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 53,,,,,,boxes,,,,,,,,1,4/26/2012,,,7075,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 54,,,,,,boxes,,,,,,,,1,4/26/2012,,,6262,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 55,,,,,,boxes,,,,,,,,1,4/26/2012,,,7239,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 56,,,,,,boxes,,,,,,,,1,4/26/2012,,,6447,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 57,,,,,,boxes,,,,,,,,1,4/26/2012,,,8914,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 58,,,,,,boxes,,,,,,,,1,4/26/2012,,,9335,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 59,,,,,,boxes,,,,,,,,1,4/26/2012,,,4858,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 60,,,,,,boxes,,,,,,,,1,4/26/2012,,,8234,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 61,,,,,,boxes,,,,,,,,1,4/26/2012,,,9038,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 62,,,,,,boxes,,,,,,,,1,4/26/2012,,,6003,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 63,,,,,,boxes,,,,,,,,1,4/26/2012,,,6590,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 64,,,,,,boxes,,,,,,,,1,4/26/2012,,,8510,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 65,,,,,,boxes,,,,,,,,1,4/26/2012,,,6000,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 66,,,,,,boxes,,,,,,,,1,4/26/2012,,,7593,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 67,,,,,,boxes,,,,,,,,1,4/26/2012,,,8174,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 68,,,,,,boxes,,,,,,,,1,4/26/2012,,,8880,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 69,,,,,,boxes,,,,,,,,1,4/26/2012,,,6619,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 70,,,,,,boxes,,,,,,,,1,4/26/2012,,,12868,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 71,,,,,,boxes,,,,,,,,1,4/26/2012,,,5630,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 72,,,,,,boxes,,,,,,,,1,4/26/2012,,,7445,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 73,,,,,,boxes,,,,,,,,1,4/26/2012,,,4419,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 74,,,,,,boxes,,,,,,,,1,4/26/2012,,,8703,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 75,,,,,,boxes,,,,,,,,1,4/26/2012,,,9249,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 76,,,,,,boxes,,,,,,,,1,4/26/2012,,,8104,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 77,,,,,,boxes,,,,,,,,1,4/26/2012,,,6076,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 78,,,,,,boxes,,,,,,,,1,4/26/2012,,,8315,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 79,,,,,,boxes,,,,,,,,1,4/26/2012,,,8266,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 80,,,,,,boxes,,,,,,,,1,4/26/2012,,,7259,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 81,,,,,,boxes,,,,,,,,1,4/26/2012,,,4680,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 82,,,,,,boxes,,,,,,,,1,4/26/2012,,,8677,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 83,,,,,,boxes,,,,,,,,1,4/26/2012,,,7871,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 84,,,,,,boxes,,,,,,,,1,4/26/2012,,,9626,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 85,,,,,,boxes,,,,,,,,1,4/26/2012,,,8968,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 86,,,,,,boxes,,,,,,,,1,4/26/2012,,,7172,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 87,,,,,,boxes,,,,,,,,1,4/26/2012,,,8297,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 88,,,,,,boxes,,,,,,,,1,4/26/2012,,,8323,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 89,,,,,,boxes,,,,,,,,1,4/26/2012,,,4215,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 90,,,,,,boxes,,,,,,,,1,4/26/2012,,,5861,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 91,,,,,,boxes,,,,,,,,1,4/26/2012,,,7539,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 92,,,,,,boxes,,,,,,,,1,4/26/2012,,,6316,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 93,,,,,,boxes,,,,,,,,1,4/26/2012,,,8273,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 94,,,,,,boxes,,,,,,,,1,4/26/2012,,,7275,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 95,,,,,,boxes,,,,,,,,1,4/26/2012,,,7945,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 96,,,,,,boxes,,,,,,,,1,4/26/2012,,,9231,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 97,,,,,,boxes,,,,,,,,1,4/26/2012,,,8313,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 98,,,,,,boxes,,,,,,,,1,4/26/2012,,,6239,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 99,,,,,,boxes,,,,,,,,1,4/26/2012,,,9699,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Medical Equipment/Supplies,,Health Kit Box# 100,,,,,,boxes,,,,,,,,1,4/26/2012,,,4619,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Personal Hygiene,,Hygiene Kit bag,,,,,,pcs,,,,,,,,151,12/12/2011,,,50,PHP,UNICEF,,,,for allocation
+NROC C WAREHOUSE,,,Personal Hygiene,,"Soap, 113g (from Layette kits)",,,,,,pcs,,,,,,,,107,4/26/2012,,,31,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Personal Hygiene,,"Soap, 127g (from Layette Kits)",,,,,,pcs,,,,,,,,507,4/26/2012,,,31,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Personal Hygiene,,"Soap, 90g (from Layette kits)",,,,,,pcs,,,,,,,,7,4/26/2012,,,20,PHP,Lutheran World Relief,,,,for allocation
+NROC C WAREHOUSE,,,Personal Hygiene,,"Toothpaste, Iodent Flouride Cavity Fighting, 181g (48sets/carton)",,,,,,sets,,,,,,,,4220,4/26/2012,6/1/2013,,150,PHP,Lutheran World Relief,,,,
+NROC C WAREHOUSE,,,Kids Supplies,,Layette Kit c/o 53 boxes,,,,,,kit,,,,,,,,54,4/26/2012,,,250,PHP,Lutheran World Relief,,,,for allocation
+NROC G WAREHOUSE,,,Clothings,,"clothing, used",,,,,,pcs,,,,,,,,997,1/10/2012,,,1,PHP,TV 5,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"clothing, used",,,,,,pcs,,,,,,,,11,1/6/2012,,,1,PHP,Office of the President - Malaca¤ang,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"clothing, used",,,,,,pcs,,,,,,,,1ÿ890,12/28/2011,,,1,PHP,TV 5,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"clothing, used",,,,,,pcs,,,,,,,,134,1/18/2012,,,1,PHP,"505th Gourp, PAF",,,,expired
+NROC G WAREHOUSE,,,Clothings,,"clothing, used",,,,,,pcs,,,,,,,,9,1/16/2012,,,1,PHP,Rachelle Neri,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"clothing, used",,,,,,pcs,,,,,,,,141,1/2/2012,,,1,PHP,Robinsons Place,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"clothing, used",,,,,,pcs,,,,,,,,50,1/19/2012,,,1,PHP,DSWD FO CAR c/o PRO-COR,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"clothing, used",,,,,,pcs,,,,,,,,59,1/25/2012,,,1,PHP,BCS Realty Corp,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"clothing, used",,,,,,pcs,,,,,,,,89,12/29/2011,,,1,PHP,Office of the President - Malaca¤ang,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"clothing, used",,,,,,pcs,,,,,,,,37,1/24/2012,,,1,PHP,c/o DSWD Central Office,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"clothing, used",,,,,,pcs,,,,,,,,312,1/17/2012,,,1,PHP,AFP OJ7,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"clothing, used",,,,,,pcs,,,,,,,,16,1/18/2012,,,1,PHP,Avida Towers Sucat,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"clothing, used",,,,,,pcs,,,,,,,,10,1/6/2012,,,1,PHP,BCDA Employees,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"clothing, used",,,,,,pcs,,,,,,,,731,1/10/2012,,,1,PHP,TV 5,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"clothing, used",,,,,,pcs,,,,,,,,11,1/4/2012,,,1,PHP,Avida Tower Sucat,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"clothing, used",,,,,,pcs,,,,,,,,37,1/19/2012,,,1,PHP,c/o DSWD Central Office,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"clothing, used",,,,,,pcs,,,,,,,,126,1/19/2012,,,1,PHP,ISAFP Camp Aguinaldo,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"clothing, used",,,,,,pcs,,,,,,,,3,1/10/2012,,,1,PHP,Department of Justice,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"clothing, used",,,,,,pcs,,,,,,,,13,2/2/2012,,,1,PHP,Rain Makers Asia,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"clothing, used",,,,,,pcs,,,,,,,,2ÿ460,1/20/2012,,,1,PHP,TV 5,,,,expired
+NROC G WAREHOUSE,,,Food Items,,"Unlabeled C2 Green Apple Tea, 500ml",,,,,,pcs,,,,,,,,154,3/23/2011,,,1,PHP,Univeral Robina Corp.,,,,expired
+NROC G WAREHOUSE,,,Food Items,,"Unlabeled C2 Green Apple Tea, 500ml",,,,,,pcs,,,,,,,,1ÿ824,3/23/2011,,,1,PHP,Univeral Robina Corp.,,,,expired
+NROC G WAREHOUSE,,,Personal Hygiene,,"Stayfree Serenity pads, 10 pads/pack",,,,,,pcs,,,,,,,,12,5/27/2008,,,1,PHP,US Navy,,,,expired
+NROC G WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Tiles,,,,,,pcs,,,,,,,,7ÿ645,1/1/2010,,,1,PHP,BOC,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,404,4/20/2009,,,1,PHP,BOC Crisostomo,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,920,4/11/2011,,,1,PHP,BOC c/o 540 bales,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,5,2/17/2011,,,1,PHP,c/o DSWD CO,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,173,9/28/2009,,,1,PHP,BOC 372 boxes,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,39,3/30/2009,,,1,PHP,BOC c/o 30 bales,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,380,7/7/2010,,,1,PHP,BOC c/o 558 bales,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,136,3/30/2009,,,1,PHP,BOC c/o 133 boxes,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,308,11/17/2010,,,1,PHP,Philippine Air Force,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,171,1/8/2010,,,1,PHP,NFA FTI,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,1ÿ033,3/30/2009,,,1,PHP,BOC c/o 131 sacks,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,1ÿ485,7/23/2009,,,1,PHP,PASG,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,2ÿ845,4/20/2009,,,1,PHP,BOC Crisostomo,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,3ÿ018,9/1/2008,,,1,PHP,BOC c/o 430 bales,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,14,12/12/2009,,,1,PHP,BOC c/o 400 bales,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,701,12/12/2009,,,1,PHP,BOC c/o 400 bales,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,578,11/26/2009,,,1,PHP,Bohol,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,838,11/12/2009,,,1,PHP,La Salle,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,3ÿ158,5/5/2010,,,1,PHP,PMS,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,984,12/9/2009,,,1,PHP,"Dubai, UAE",,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,498,11/27/2009,,,1,PHP,"Pacific Beverages, Singapore",,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,45,7/17/2008,,,1,PHP,BOC c/o 307 bales,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,445,12/9/2009,,,1,PHP,Saudi,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,737,11/6/2009,,,1,PHP,Cebu,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Clothing,,,,,,pcs,,,,,,,,564,12/18/2009,,,1,PHP,Petron Foundation,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Use Bags,,,,,,pcs,,,,,,,,1,5/5/2010,,,1,PHP,PMS,,,,expired
+NROC G WAREHOUSE,,,Kids Supplies,,Used Hard Toys,,,,,,pcs,,,,,,,,19,12/3/2008,,,1,PHP,MM Mayo's Spouse and Ricky Reyes Foundation,,,,expired
+NROC G WAREHOUSE,,,Kids Supplies,,Stuff Toys,,,,,,pcs,,,,,,,,1,2/15/2007,,,1,PHP,US Navy,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used BAgs,,,,,,pcs,,,,,,,,3,12/3/2008,,,1,PHP,MM Mayo's Spouse and Ricky Reyes Foundation,,,,expired
+NROC G WAREHOUSE,,,Food Items,,"Bottled Water, Assorted",,,,,,pcs,,,,,,,,63,9/9/2011,,,1,PHP,Sunlove Singapore c/o BOC,,,,expired
+NROC G WAREHOUSE,,,Personal Hygiene,,Toothpaste,,,,,,pcs,,,,,,,,100,5/27/2008,,,1,PHP,Used Navy 4th batch,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Bags/footwear,,,,,,pcs,,,,,,,,7,4/14/2011,,,1,PHP,Ken Delos Reyes and Anonymouse Donor c/o CO,,,,expired
+NROC G WAREHOUSE,,,Food Items,,biscuits and Noodles,,,,,,pcs,,,,,,,,25,9/9/2011,,,1,PHP,Sunlove Singapore c/o BOC,,,,expired
+NROC G WAREHOUSE,,,Personal Hygiene,,Stayfree with Cottony Dry cover,,,,,,pcs,,,,,,,,40,5/27/2008,,,1,PHP,US Navy,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Shoe,,,,,,pcs,,,,,,,,1,9/30/2009,,,1,PHP,Concerned Volunteer,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Shoe,,,,,,pcs,,,,,,,,3,9/30/2009,,,1,PHP,Eri Rodriguez,,,,expired
+NROC G WAREHOUSE,,,Food Items,,"Rice, Assorted",,,,,,pcs,,,,,,,,2,9/9/2011,,,1,PHP,Sunlove Singapore c/o BOC,,,,expired
+NROC G WAREHOUSE,,,Kids Supplies,,Monocycle,,,,,,pcs,,,,,,,,3,1/1/2004,,,1,PHP,Intl. Friendship,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Stuff Toys,,,,,,pcs,,,,,,,,9,11/17/2010,,,1,PHP,Philippine Air Force,,,,expired
+NROC G WAREHOUSE,,,Food Items,,Assorted Food Items,,,,,,pcs,,,,,,,,31,9/9/2011,,,1,PHP,Filipino Community London c/o BOC,,,,expired
+NROC G WAREHOUSE,,,Food Items,,Assorted Food Items,,,,,,pcs,,,,,,,,11,9/9/2011,,,1,PHP,Sunlove Singapore c/o BOC,,,,expired
+NROC G WAREHOUSE,,,Food Items,,"Khong Guan, Square Puff, 300g x 12packs",,,,,,pcs,,,,,,,,99,9/9/2011,,,1,PHP,Sunlove Singapore c/o BOC,,,,expired
+NROC G WAREHOUSE,,,Food Items,,Assorted Biscuits 23cans/box,,,,,,pcs,,,,,,,,1,9/9/2011,,,1,PHP,Sunlove Singapore c/o BOC,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"Assorted Clothing, shoes/bags",,,,,,pcs,,,,,,,,163,9/9/2011,,,1,PHP,Sunlove Singapore c/o BOC,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"bags, used",,,,,,pcs,,,,,,,,10,1/16/2012,,,1,PHP,Rachelle Neri,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"bags, used",,,,,,pcs,,,,,,,,11,1/2/2012,,,1,PHP,Robinsons Place,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"bags, used",,,,,,pcs,,,,,,,,48,1/20/2012,,,1,PHP,TV 5,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"bags, used",,,,,,pcs,,,,,,,,42,1/10/2012,,,1,PHP,TV 5,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Pillow used,,,,,,pcs,,,,,,,,4,2/17/2011,,,1,PHP,c/o DSWD CO,,,,expired
+NROC G WAREHOUSE,,,Shelter/Housing/Electrical Supplies/Survival,,Computer CPU,,,,,,pcs,,,,,,,,1,5/8/2010,,,1,PHP,"Singapore, Sunlove Abode",,,,expired
+NROC G WAREHOUSE,,,Food Items,,"Rice, 100% Broken White",,,,,,pcs,,,,,,,,50,9/9/2011,,,1,PHP,Sunlove Singapore c/o BOC,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"Bath towel/bedsheet, used",,,,,,pcs,,,,,,,,516,2/16/2012,,,1,PHP,Hotel Sogo,,,,expired
+NROC G WAREHOUSE,,,Sleeping Gear,,"Bedcover, used",,,,,,pcs,,,,,,,,18,2/2/2012,,,1,PHP,Robinsons Land,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Toys,,,,,,pcs,,,,,,,,2,2/17/2011,,,1,PHP,c/o DSWD CO,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"bags/sandals/shoes, used",,,,,,pcs,,,,,,,,136,1/17/2012,,,1,PHP,AFP OJ7,,,,expired
+NROC G WAREHOUSE,,,Kids Supplies,,Hard Toys,,,,,,pcs,,,,,,,,1,2/15/2007,,,1,PHP,US Navy,,,,expired
+NROC G WAREHOUSE,,,Medical Equipment/Supplies,,"Eye Pad oval, 50 pads/pack",,,,,,pcs,,,,,,,,12,5/27/2008,,,1,PHP,US Navy,,,,expired
+NROC G WAREHOUSE,,,Personal Hygiene,,"Carefree Longs, 46 pads/box",,,,,,pcs,,,,,,,,12,5/27/2008,,,1,PHP,US Navy,,,,expired
+NROC G WAREHOUSE,,,Personal Hygiene,,Dental Floss,,,,,,pcs,,,,,,,,1,5/27/2008,,,1,PHP,US Navy,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Shoes,,,,,,pcs,,,,,,,,45,9/28/2009,,,1,PHP,BOC c/o 372 boxes,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Shoes,,,,,,pcs,,,,,,,,40,4/20/2009,,,1,PHP,BOC Crisostomo,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Shoes,,,,,,pcs,,,,,,,,17,5/5/2010,,,1,PHP,PMS,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Shoes,,,,,,pcs,,,,,,,,9,12/3/2008,,,1,PHP,MM Mayo's Spouse and Ricky Reyes Foundation,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Shoes,,,,,,pcs,,,,,,,,8,12/27/2009,,,1,PHP,Pacquiao Foundation,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Bags,,,,,,pcs,,,,,,,,87,6/30/2008,,,1,PHP,BOC c/o 100 bales,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Bags,,,,,,pcs,,,,,,,,121,8/2/2008,,,1,PHP,BOC c/o 109 bales,,,,expired
+NROC G WAREHOUSE,,,Personal Hygiene,,"Carefree Original Scent, 60 pads/box",,,,,,pcs,,,,,,,,14,5/27/2008,,,1,PHP,US Navy,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Assorted Used clothing,,,,,,pcs,,,,,,,,88,9/9/2011,,,1,PHP,Filipino Community London c/o BOC,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used Slilppers/shoes,,,,,,pcs,,,,,,,,70,11/17/2010,,,1,PHP,Philippine Air Force,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"Assorted clothing, blanket, shoes, etc",,,,,,pcs,,,,,,,,154,9/9/2011,,,1,PHP,Sunlove Singapore c/o BOC,,,,expired
+NROC G WAREHOUSE,,,Medical Equipment/Supplies,,"Dressing Sponge, 50 pads/pack",,,,,,pcs,,,,,,,,12,5/27/2008,,,1,PHP,US Navy,,,,expired
+NROC G WAREHOUSE,,,Kids Supplies,,Used Stuff toys,,,,,,pcs,,,,,,,,7,12/3/2008,,,1,PHP,MM Mayo's Spouse and Ricky Reyes Foundation,,,,expired
+NROC G WAREHOUSE,,,Medical Equipment/Supplies,,"Expired Mucosol Elixir Syrup, 100ml x 94 bottles",,,,,,pcs,,,,,,,,1,9/9/2011,,,1,PHP,Sunlove Singapore c/o BOC,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Used bag,,,,,,pcs,,,,,,,,7,11/17/2010,,,1,PHP,Philippine Air Force,,,,expired
+NROC G WAREHOUSE,,,Kids Supplies,,Scooter Board,,,,,,pcs,,,,,,,,1,5/27/2008,,,1,PHP,US Navy,,,,expired
+NROC G WAREHOUSE,,,Clothings,,Assorted Footwear (3 sacks),,,,,,pcs,,,,,,,,75,9/9/2011,,,1,PHP,Filipino Community London c/o BOC,,,,expired
+NROC G WAREHOUSE,,,Clothings,,"Used Bags, shoes",,,,,,pcs,,,,,,,,3,2/17/2011,,,1,PHP,c/o DSWD CO,,,,expired
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
