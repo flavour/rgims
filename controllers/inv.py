@@ -516,16 +516,27 @@ def inv_item_quantity():
     """
     """
 
+    try:
+        item_id = request.args[0]
+    except:
+        raise HTTP(400, current.xml.json_message(False, 400, "No value provided!"))
+
     table = s3db.inv_inv_item
-    ptable = s3db.supply_item_pack
-    query = (table.id == request.args[0]) & \
+    ptable = db.supply_item_pack
+    query = (table.id == item_id) & \
             (table.item_pack_id == ptable.id)
     record = db(query).select(table.quantity,
                               ptable.quantity,
+                              orderby = not table.quantity,
                               limitby=(0, 1)).first()
-                              
+
+    d = {"iquantity" : record.inv_inv_item.quantity,
+         "pquantity" : record.supply_item_pack.quantity,
+         }
+    output = json.dumps(d)
+
     response.headers["Content-Type"] = "application/json"
-    return json.dumps(record)
+    return output
 
 # -----------------------------------------------------------------------------
 def inv_item_packs():
@@ -1407,7 +1418,7 @@ def recv_process():
     code = s3db.inv_get_shipping_code(settings.get_inv_recv_shortname(),
                                       recv_record.site_id,
                                       s3db.inv_recv.recv_ref)
-    rtable[recv_id] = dict(# date = request.utcnow,
+    rtable[recv_id] = dict(date = request.utcnow,
                            recv_ref = code,
                            status = eden.inv.inv_ship_status["RECEIVED"],
                            owned_by_user = None,
@@ -1416,7 +1427,7 @@ def recv_process():
                                                         limitby=(0, 1)).first()
     if send_row:
         send_id = send_row.send_id
-        stable[send_id] = dict(date = request.utcnow,
+        stable[send_id] = dict(#date = request.utcnow,
                                status = eden.inv.inv_ship_status["RECEIVED"],
                                owned_by_user = None,
                                owned_by_group = ADMIN)
