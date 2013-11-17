@@ -572,26 +572,11 @@ class IS_ONE_OF_EMPTY(Validator):
             self.labels = labels
 
             if labels and self.sort:
-                orig_labels = self.labels
-                orig_theset = self.theset
+                from s3utils import s3_unicode
 
-                labels = []
-                theset = []
-
-                for label in orig_labels:
-                    try:
-                        labels.append(label.flatten())
-                    except:
-                        labels.append(label)
-                orig_labels = list(labels)
-                labels.sort()
-
-                for label in labels:
-                     orig_index = orig_labels.index(label)
-                     theset.append(orig_theset[orig_index])
-
-                self.labels = labels
-                self.theset = theset
+                items = zip(self.theset, self.labels)
+                items.sort(key=lambda item: s3_unicode(item[1]).lower())
+                self.theset, self.labels = zip(*items)
 
         else:
             self.theset = None
