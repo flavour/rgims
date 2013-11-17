@@ -52,9 +52,9 @@ function InvItemPackIDChange() {
     // Save JSON Request by element id
     S3.JSONRequest[$(this).attr('id')] = $.getJSON(url, function(data) {
         // @ToDo: Error Checking
-        var InvQuantity = data.inv_inv_item.quantity; 
-        var InvPackQuantity = data.supply_item_pack.quantity; 
-        
+        var InvQuantity = data.iquantity;
+        var InvPackQuantity = data.pquantity;
+
         var PackName = $('[name = "item_pack_id"] option:selected').text();
         var re = /\(([0-9]*)\sx/;
         var RegExpResult = re.exec(PackName);
