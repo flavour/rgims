@@ -45,7 +45,7 @@ if len(pop_list) > 0:
                 "Unauthenticated users",
                 # Allow unauthenticated users to view the list of organisations
                 # so they can select an organisation when registering
-                dict(t="org_organisation", uacl=acl.READ, entity="any"),
+                #dict(t="org_organisation", uacl=acl.READ, entity="any"),
                 uid=sysroles.ANONYMOUS,
                 protected=True)
 

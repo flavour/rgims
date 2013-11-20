@@ -167,12 +167,12 @@ class S3SupplyModel(S3Model):
         catalog_id = S3ReusableField("catalog_id", table,
                     sortby="name",
                     requires = IS_NULL_OR(
-                                   IS_ONE_OF( # Restrict to catalogs the user can update
-                                              db(current.auth.s3_accessible_query("update", table)),
-                                              "supply_catalog.id",
-                                              "%(name)s",
-                                              sort=True,
-                                              )
+                                   IS_ONE_OF(db, "supply_catalog.id",
+                                             "%(name)s",
+                                             sort=True,
+                                             # Restrict to catalogs the user can update
+                                             updateable=True,
+                                             )
                                           ),
                     represent = lambda id: \
                         s3_get_db_field_value(tablename = "supply_catalog",

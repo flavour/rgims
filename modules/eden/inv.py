@@ -945,20 +945,20 @@ class S3TrackingModel(S3Model):
                              # This is a component, so needs to be a super_link
                              # - can't override field name, ondelete or requires
                              self.super_link("site_id", "org_site",
-                                              label = T("From Warehouse/Facility/Office"),
-                                              #filterby = "site_id",
-                                              #filter_opts = permitted_facilities(redirect_on_error=False),
-                                              instance_types = auth.org_site_types,
-                                              updateable = True,
-                                              not_filterby = "obsolete",
-                                              not_filter_opts = [True],
-                                              default = user.site_id if is_logged_in() else None,
-                                              readable = True,
-                                              writable = True,
-                                              empty = False,
-                                              represent = org_site_represent,
-                                              widget = S3SiteAutocompleteWidget(),
-                                              ),
+                                             label = T("From Warehouse/Facility/Office"),
+                                             #filterby = "site_id",
+                                             #filter_opts = permitted_facilities(redirect_on_error=False),
+                                             instance_types = auth.org_site_types,
+                                             updateable = True,
+                                             not_filterby = "obsolete",
+                                             not_filter_opts = [True],
+                                             default = user.site_id if is_logged_in() else None,
+                                             readable = True,
+                                             writable = True,
+                                             empty = False,
+                                             represent = org_site_represent,
+                                             widget = S3SiteAutocompleteWidget(),
+                                             ),
                              Field("type", "integer",
                                    requires = IS_IN_SET(send_type_opts),
                                    represent = lambda opt: send_type_opts.get(opt, UNKNOWN_OPT),
@@ -968,15 +968,16 @@ class S3TrackingModel(S3Model):
                              # This is a reference, not a super-link, so we can override
                              Field("to_site_id", self.org_site,
                                    label = T("To Warehouse/Facility/Office"),
-                                   requires = IS_NULL_OR(IS_ONE_OF(db, "org_site.site_id",
-                                                        lambda id: \
-                                                            org_site_represent(id, show_link = False),
-                                                        sort=True,
-                                                        not_filterby = "obsolete",
-                                                        not_filter_opts = [True],
-                                                        )),
+                                   requires = IS_NULL_OR(
+                                                IS_ONE_OF(db, "org_site.site_id",
+                                                          lambda id: \
+                                                            org_site_represent(id, show_link=False),
+                                                          sort=True,
+                                                          not_filterby = "obsolete",
+                                                          not_filter_opts = [True],
+                                                          )),
                                    ondelete = "SET NULL",
-                                   represent =  org_site_represent,
+                                   represent = org_site_represent,
                                    widget = S3SiteAutocompleteWidget(),
                                    ),
                              organisation_id(label = T("To Organisation")),
@@ -1076,7 +1077,7 @@ class S3TrackingModel(S3Model):
         configure(tablename,
                   # it shouldn't be possible for the user to delete a send item
                   # unless *maybe* if it is pending and has no items referencing it
-                  deletable=False,
+                  deletable = False,
                   list_fields = ["id",
                                  "send_ref",
                                  "req_ref",
@@ -1093,7 +1094,7 @@ class S3TrackingModel(S3Model):
                                  "time_in",
                                  "time_out",
                                  "comments"
-                                ],
+                                 ],
                   onaccept = self.inv_send_onaccept,
                   onvalidation = self.inv_send_onvalidation,
                   create_next = send_item_url,
@@ -1139,21 +1140,22 @@ class S3TrackingModel(S3Model):
                                    label = T("Shipment Type"),
                                    default = 0,
                                    ),
-                             organisation_id( label = T("Organisation/Supplier")
-                                    ),
+                             organisation_id(
+                                label = T("Organisation/Supplier"),
+                                ),
                              # This is a reference, not a super-link, so we can override
                              Field("from_site_id", "reference org_site",
                                    label = T("From Warehouse/Facility/Office"),
                                    ondelete = "SET NULL",
                                    #widget = S3SiteAutocompleteWidget(),
-                                   requires = IS_NULL_OR( IS_ONE_OF(db, "org_site.site_id",
-                                                                    lambda id: \
-                                                                            org_site_represent(id, show_link = False),
-                                                                    sort=True,
-                                                                    not_filterby = "obsolete",
-                                                                    not_filter_opts = [True],
-                                                                    )
-                                                         ),
+                                   requires = IS_NULL_OR(
+                                                IS_ONE_OF(db, "org_site.site_id",
+                                                          lambda id: \
+                                                            org_site_represent(id, show_link=False),
+                                                          sort=True,
+                                                          not_filterby = "obsolete",
+                                                          not_filter_opts = [True],
+                                                          )),
                                    represent = org_site_represent
                                    ),
                              s3_date("eta",
@@ -1716,7 +1718,7 @@ $(document).ready(function(){
         return Storage(inv_track_item_deleting = self.inv_track_item_deleting,
                        inv_get_shipping_code = self.inv_get_shipping_code,
                        inv_track_item_onaccept = self.inv_track_item_onaccept,
-                      )
+                       )
 
     # ---------------------------------------------------------------------
     @staticmethod

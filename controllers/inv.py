@@ -195,8 +195,7 @@ def index():
                     r = s3_request("inv", "inv_item",
                                    vars={"orderby" : orderby})
                     r.resource = resource
-                    output = r(
-                               pdf_groupby='site_id',
+                    output = r(pdf_groupby="site_id",
                                dt_group=1,
                                )
                     return output
@@ -287,7 +286,7 @@ def warehouse():
             elif r.component.name == "human_resource":
                 # Filter out people which are already staff for this warehouse
                 s3base.s3_filter_staff(r)
-                # Cascade the organisation_id from the hospital to the staff
+                # Cascade the organisation_id from the warehouse to the staff
                 htable = s3db.hrm_human_resource
                 htable.organisation_id.default = r.record.organisation_id
                 htable.organisation_id.writable = False
@@ -561,7 +560,6 @@ def send():
     """ RESTful CRUD controller """
 
     sendtable = s3db.inv_send
-    tracktable = s3db.inv_track_item
 
     # Limit site_id to sites the user has permissions for
     error_msg = T("You do not have permission for any facility to send a shipment.")
@@ -573,31 +571,35 @@ def send():
         if not vars.item_pack_id:
             vars.item_pack_id = s3db.inv_inv_item[vars.send_inv_item_id].item_pack_id
         s3db.inv_track_item.quantity.requires = QUANTITY_INV_ITEM(db,
-                                                                 vars.send_inv_item_id,
-                                                                 vars.item_pack_id)
+                                                                  vars.send_inv_item_id,
+                                                                  vars.item_pack_id)
 
-    SHIP_STATUS_IN_PROCESS = s3db.inv_ship_status["IN_PROCESS"]
-    SHIP_STATUS_SENT = s3db.inv_ship_status["SENT"]
-    SHIP_STATUS_RECEIVED = s3db.inv_ship_status["RECEIVED"]
-    SHIP_STATUS_CANCEL = s3db.inv_ship_status["CANCEL"]
-    SHIP_STATUS_RETURNING  = s3db.inv_ship_status["RETURNING"]
+    tracktable = s3db.inv_track_item
+
+    inv_ship_status = s3db.inv_ship_status
+    SHIP_STATUS_IN_PROCESS = inv_ship_status["IN_PROCESS"]
+    SHIP_STATUS_SENT = inv_ship_status["SENT"]
+    SHIP_STATUS_RECEIVED = inv_ship_status["RECEIVED"]
+    SHIP_STATUS_CANCEL = inv_ship_status["CANCEL"]
+    SHIP_STATUS_RETURNING  = inv_ship_status["RETURNING"]
 
     def set_send_attr(status):
         sendtable.send_ref.writable = False
         if status == SHIP_STATUS_IN_PROCESS:
             sendtable.send_ref.readable = False
         else:
-            # Make all fields writable False
+            # Make all fields read-only
             for field in sendtable.fields:
                 sendtable[field].writable = False
 
-    TRACK_STATUS_UNKNOWN    = s3db.inv_tracking_status["UNKNOWN"]
-    TRACK_STATUS_PREPARING  = s3db.inv_tracking_status["IN_PROCESS"]
-    TRACK_STATUS_TRANSIT    = s3db.inv_tracking_status["SENT"]
-    TRACK_STATUS_UNLOADING  = s3db.inv_tracking_status["UNLOADING"]
-    TRACK_STATUS_ARRIVED    = s3db.inv_tracking_status["RECEIVED"]
-    TRACK_STATUS_CANCELED   = s3db.inv_tracking_status["CANCEL"]
-    TRACK_STATUS_RETURNING  = s3db.inv_tracking_status["RETURNING"]
+    inv_tracking_status = s3db.inv_tracking_status
+    TRACK_STATUS_UNKNOWN    = inv_tracking_status["UNKNOWN"]
+    TRACK_STATUS_PREPARING  = inv_tracking_status["IN_PROCESS"]
+    TRACK_STATUS_TRANSIT    = inv_tracking_status["SENT"]
+    TRACK_STATUS_UNLOADING  = inv_tracking_status["UNLOADING"]
+    TRACK_STATUS_ARRIVED    = inv_tracking_status["RECEIVED"]
+    TRACK_STATUS_CANCELED   = inv_tracking_status["CANCEL"]
+    TRACK_STATUS_RETURNING  = inv_tracking_status["RETURNING"]
 
     def set_track_attr(status):
         # By default Make all fields writable False
@@ -647,10 +649,10 @@ def send():
             # now that the shipment has been sent
             # lock the record so that it can't be meddled with
             s3db.configure("inv_send",
-                            create=False,
-                            listadd=False,
-                            editable=False,
-                            deletable=False,
+                           create=False,
+                           listadd=False,
+                           editable=False,
+                           deletable=False,
                            )
 
         if r.component:
@@ -670,7 +672,7 @@ def send():
                                "supply_org_id",
                                "inv_item_status",
                                "comments",
-                              ]
+                               ]
             elif record.status == SHIP_STATUS_RETURNING:
                 list_fields = ["id",
                                "status",
@@ -684,7 +686,7 @@ def send():
                                "owner_org_id",
                                "supply_org_id",
                                "inv_item_status",
-                              ]
+                               ]
             else:
                 list_fields = ["id",
                                "status",
@@ -697,9 +699,9 @@ def send():
                                "owner_org_id",
                                "supply_org_id",
                                "inv_item_status",
-                              ]
+                               ]
             s3db.configure("inv_track_item",
-                            list_fields=list_fields,
+                           list_fields=list_fields,
                            )
 
             # Can only create or delete track items for a send record if the status is preparing
@@ -771,12 +773,11 @@ def send():
                 editable = True
             # remove CRUD generated buttons in the tabs
             s3db.configure("inv_track_item",
-                            create=False,
-                            listadd=False,
-                            editable=editable,
-                            deletable=False,
+                           create=False,
+                           listadd=False,
+                           editable=editable,
+                           deletable=False,
                            )
-
 
     s3.prep = prep
     output = s3_rest_controller(rheader=s3.inv_send_rheader)
