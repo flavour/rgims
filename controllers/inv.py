@@ -712,14 +712,16 @@ def send():
                 return s3.inv_track_item_deleting(r.component_id)
             if r.record.get("site_id"):
                 # Restrict to items from this warehouse only
-                tracktable.send_inv_item_id.requires = IS_ONE_OF(db,
-                                                         "inv_inv_item.id",
-                                                         s3db.inv_item_represent,
-                                                         orderby="inv_inv_item.id",
-                                                         sort=True,
-                                                         filterby = "site_id",
-                                                         filter_opts = [r.record.site_id]
-                                                        )
+                tracktable.send_inv_item_id.requires = \
+                    IS_ONE_OF(db, "inv_inv_item.id",
+                              s3db.inv_item_represent,
+                              filterby = "site_id",
+                              filter_opts = [r.record.site_id],
+                              not_filterby = "quantity",
+                              not_filter_opts = [0],
+                              orderby = "inv_inv_item.id",
+                              sort = True,
+                              )
             # Hide the values that will be copied from the inv_inv_item record
             if r.component_id:
                 track_record = tracktable[r.component_id]
