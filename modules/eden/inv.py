@@ -1075,6 +1075,7 @@ class S3TrackingModel(S3Model):
                                             "track_item"])
 
         configure(tablename,
+                  create_next = send_item_url,
                   # it shouldn't be possible for the user to delete a send item
                   # unless *maybe* if it is pending and has no items referencing it
                   deletable = False,
@@ -1096,11 +1097,10 @@ class S3TrackingModel(S3Model):
                                  "comments"
                                  ],
                   onaccept = self.inv_send_onaccept,
+                  orderby = ~table.date,
                   onvalidation = self.inv_send_onvalidation,
-                  create_next = send_item_url,
+                  sortby = [[5, "desc"], [1, "asc"]],
                   update_next = send_item_url,
-                  orderby=~table.date,
-                  sortby=[[5, "desc"], [1, "asc"]],
                   )
 
         # ---------------------------------------------------------------------
@@ -2817,7 +2817,7 @@ def inv_warehouse_rheader(r):
         rheader_tabs = DIV(s3_rheader_tabs(r, tabs))
 
         # Get item data
-        table = s3db["inv_inv_item"]
+        table = s3db.inv_inv_item
         irecord = table[record.item_id]
 
         # Header
