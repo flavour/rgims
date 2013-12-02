@@ -1095,8 +1095,6 @@ def recv():
     """ RESTful CRUD controller """
 
     recvtable = s3db.inv_recv
-    tracktable = s3db.inv_track_item
-    atable = s3db.inv_adj_item
 
     # Limit site_id to sites the user has permissions for
     if settings.get_inv_shipment_name() == "order":
@@ -1105,13 +1103,18 @@ def recv():
         error_msg = T("You do not have permission for any facility to receive a shipment.")
     auth.permitted_facilities(table=recvtable, error_msg=error_msg)
 
+    tracktable = s3db.inv_track_item
+    atable = s3db.inv_adj_item
+
     # The inv_recv record might be created when the shipment is send and so it
     # might not have the recipient identified. If it is null then set it to
     # the person who is logged in (the default)
     id = request.args(0)
     if id:
+        record = db(recvtable.id == id).select(recvtable.recipient_id,
+                                               limitby=(0, 1)).first()
         try:
-            if recvtable[id].recipient_id == None:
+            if record.recipient_id is None:
                 db(recvtable.id == id).update(recipient_id = auth.s3_logged_in_person())
         except:
             pass
@@ -1140,6 +1143,7 @@ def recv():
             for field in recvtable.fields:
                 recvtable[field].writable = False
         if status == SHIP_STATUS_SENT:
+            recvtable.date.writable = True
             recvtable.recipient_id.readable = True
             recvtable.recipient_id.writable = True
             recvtable.comments.writable = True
@@ -1218,10 +1222,10 @@ def recv():
             # now that the shipment has been sent
             # lock the record so that it can't be meddled with
             s3db.configure("inv_recv",
-                            create=False,
-                            listadd=False,
-                            editable=False,
-                            deletable=False,
+                           create = False,
+                           deletable = False,
+                           editable = False,
+                           listadd = False,
                            )
         if r.component and r.component.name == "track_item":
             # Set the track_item attributes
@@ -1245,7 +1249,9 @@ def recv():
         else:
             # Set the recv attributes
             if r.id:
-                record = recvtable[r.id]
+                record = db(recvtable.id == r.id).select(recvtable.status,
+                                                         limitby=(0, 1)
+                                                         ).first()
                 set_recv_attr(record.status)
             else:
                 set_recv_attr(SHIP_STATUS_IN_PROCESS)
@@ -1257,7 +1263,9 @@ def recv():
     s3.prep = prep
 
     if len(request.args) > 1 and request.args[1] == "track_item":
-        status = recvtable[request.args[0]].status
+        status = db(recvtable.id == request.args[0]).select(recvtable.status,
+                                                            limitby=(0, 1)
+                                                            ).first().status
         if status == SHIP_STATUS_SENT:
             list_fields = ["id",
                            "status",
@@ -1270,22 +1278,23 @@ def recv():
                            "recv_bin",
                            "owner_org_id",
                            "supply_org_id",
-                          ]
+                           ]
             s3db.configure("inv_track_item",
-                            list_fields=list_fields,
+                           list_fields = list_fields,
+                           # Remove CRUD generated buttons in the tabs
+                           create = False,
+                           deletable = False,
+                           editable = True,
+                           listadd = False,
                            )
-        if status:
+        elif status:
             # remove CRUD generated buttons in the tabs
             s3db.configure("inv_track_item",
-                            create=False,
-                            listadd=False,
-                            editable=False,
-                            deletable=False,
+                           create = False,
+                           deletable = False,
+                           editable = False,
+                           listadd = False,
                            )
-            if recvtable[request.args[0]].status == 2:
-                s3db.configure("inv_track_item",
-                                editable=True,
-                               )
 
     output = s3_rest_controller(rheader=s3db.inv_recv_rheader)
     return output
@@ -1398,34 +1407,39 @@ def recv_process():
     rrtable = s3db.req_req
     ritable = s3db.req_req_item
 
-    if not auth.s3_has_permission("update",
-                                  rtable,
-                                  record_id=recv_id):
+    if not auth.s3_has_permission("update", rtable, record_id=recv_id):
         session.error = T("You do not have permission to receive this shipment.")
+        redirect(URL(c="inv", f="recv", args=[recv_id]))
 
-    recv_record = rtable[recv_id]
+    recv_record = db(rtable.id == recv_id).select(rtable.date,
+                                                  rtable.status,
+                                                  rtable.site_id,
+                                                  limitby=(0, 1)
+                                                  ).first()
 
-    if recv_record.status == eden.inv.SHIP_STATUS_RECEIVED:
+    status = recv_record.status
+    if status == eden.inv.SHIP_STATUS_RECEIVED:
         session.error = T("This shipment has already been received.")
+        redirect(URL(c="inv", f="recv", args=[recv_id]))
 
-    if recv_record.status == eden.inv.SHIP_STATUS_CANCEL:
+    if status == eden.inv.SHIP_STATUS_CANCEL:
         session.error = T("This shipment has already been received & subsequently canceled.")
-
-    if session.error:
-        redirect(URL(c = "inv",
-                     f = "recv",
-                     args = [recv_id]))
+        redirect(URL(c="inv", f="recv", args=[recv_id]))
 
     site_id = recv_record.site_id
     # Update Receive record & lock for editing
     code = s3db.inv_get_shipping_code(settings.get_inv_recv_shortname(),
                                       recv_record.site_id,
                                       s3db.inv_recv.recv_ref)
-    rtable[recv_id] = dict(date = request.utcnow,
-                           recv_ref = code,
-                           status = eden.inv.inv_ship_status["RECEIVED"],
-                           owned_by_user = None,
-                           owned_by_group = ADMIN)
+    data = dict(recv_ref = code,
+                status = inv_ship_status["RECEIVED"],
+                owned_by_user = None,
+                owned_by_group = ADMIN,
+                )
+    if not recv_record.date:
+        data["date"] = request.utcnow
+    db(rtable.id == recv_id).update(**data)
+
     send_row = db(tracktable.recv_id == recv_id).select(tracktable.send_id,
                                                         limitby=(0, 1)).first()
     if send_row:
