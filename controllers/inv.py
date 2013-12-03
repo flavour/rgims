@@ -1418,7 +1418,8 @@ def recv_process():
                                                   ).first()
 
     status = recv_record.status
-    if status == eden.inv.SHIP_STATUS_RECEIVED:
+    SHIP_STATUS_RECEIVED = eden.inv.SHIP_STATUS_RECEIVED
+    if status == SHIP_STATUS_RECEIVED:
         session.error = T("This shipment has already been received.")
         redirect(URL(c="inv", f="recv", args=[recv_id]))
 
@@ -1432,7 +1433,7 @@ def recv_process():
                                       recv_record.site_id,
                                       s3db.inv_recv.recv_ref)
     data = dict(recv_ref = code,
-                status = inv_ship_status["RECEIVED"],
+                status = SHIP_STATUS_RECEIVED,
                 owned_by_user = None,
                 owned_by_group = ADMIN,
                 )
